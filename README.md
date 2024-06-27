@@ -47,7 +47,7 @@
 
 [Source Engines](https://github.com/Embotic-xyz/Eggs/tree/main/Source%20Engine)
 * [Ark Survival](https://github.com/Embotic-xyz/Eggs/blob/main/Source%20Engine/egg-ark--survival-evolved.json)
-* [CS:GO](https://github.com/Embotic-xyz/Eggs/blob/main/Source%20Engine/egg-counter--strike--global-offensive.json)
+* [CS2](https://github.com/Embotic-xyz/Eggs/blob/main/Source%20Engine/egg-counter--strike--global-offensive.json)
 * [Custom Source Engine Game](https://github.com/Embotic-xyz/Eggs/blob/main/Source%20Engine/egg-custom-source-engine-game.json)
 * [Garry's Mod](https://github.com/Embotic-xyz/Eggs/blob/main/Source%20Engine/egg-garrys-mod.json)
 * [Insurgency](https://github.com/Embotic-xyz/Eggs/blob/main/Source%20Engine/egg-insurgency.json)
