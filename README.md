@@ -58,4 +58,4 @@
 * [TeamSpeak3 Server](https://github.com/Embotic-xyz/Eggs/blob/main/Voice%20Servers/egg-teamspeak3-server.json)
 
 [Websites](https://github.com/Embotic-xyz/Eggs/tree/main/Websites)
-* [NGINX](https://github.com/Embotic-xyz/Eggs/blob/main/Websites/egg-nginx.json)
+* [Nginx](https://github.com/Embotic-xyz/Eggs/blob/main/Websites/egg-nginx.json)
