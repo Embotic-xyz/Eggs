@@ -1,7 +1,7 @@
 # Embotic Public Eggs
 > [!WARNING]
 > 
-> READ THIS
+> READ THIS!
 > ---
 >
 > **Notice:** These eggs might not work for you and are only compatible with Pterodactyl. These eggs will be updated regularly as we add more eggs to our network.
