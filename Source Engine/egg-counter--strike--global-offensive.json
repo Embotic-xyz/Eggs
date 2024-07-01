@@ -45,7 +45,7 @@
             "name": "Steam Account Token",
             "description": "The Steam Account Token required for the server to be displayed publicly.",
             "env_variable": "STEAM_ACC",
-            "default_value": "",
+            "default_value": "CHANGETHISTOYOUROWNACCOUNTTOKENN",
             "user_viewable": true,
             "user_editable": true,
             "rules": "required|string|alpha_num|size:32",
