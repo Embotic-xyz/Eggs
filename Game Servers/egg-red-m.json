@@ -52,7 +52,7 @@
             "name": "Server Hostname",
             "description": "The name that shows up in the server browser",
             "env_variable": "SERVER_HOSTNAME",
-            "default_value": "My new FXServer!",
+            "default_value": "My new RedM Server! Hosted on discord.gg/embotic",
             "user_viewable": true,
             "user_editable": true,
             "rules": "required|string",

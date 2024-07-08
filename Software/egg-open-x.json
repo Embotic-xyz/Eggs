@@ -32,7 +32,7 @@
             "name": "Password",
             "description": "",
             "env_variable": "PASSWORD",
-            "default_value": "changeme",
+            "default_value": "discord.gg/embotic",
             "user_viewable": true,
             "user_editable": true,
             "rules": "required|string|max:20",
