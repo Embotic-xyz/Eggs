@@ -34,7 +34,7 @@
             "name": "Server Name",
             "description": "The name of your server in the public server list.",
             "env_variable": "HOSTNAME",
-            "default_value": "A Rust Server",
+            "default_value": "My new Rust server, hosted on discord.gg/embotic",
             "user_viewable": true,
             "user_editable": true,
             "rules": "required|string|max:60",
