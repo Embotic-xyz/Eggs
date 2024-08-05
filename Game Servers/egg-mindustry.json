@@ -6,7 +6,7 @@
     },
     "exported_at": "2024-06-27T18:57:35+01:00",
     "name": "Mindustry",
-    "author": "sir3lit@gmail.com",
+    "author": "alex.mindustry@gmail.com",
     "description": "Mindustry is a hybrid tower-defense sandbox factory game. Create elaborate supply chains of conveyor belts to feed ammo into your turrets, produce materials to use for building, and defend your structures from waves of enemies.",
     "features": null,
     "docker_images": {
@@ -15,7 +15,7 @@
         "Java 21": "ghcr.io\/pterodactyl\/yolks:java_21"
     },
     "file_denylist": [],
-    "startup": "java -Xms128M -Xmx{{SERVER_MEMORY}}M -jar server-release.jar config port {{SERVER_PORT}},config name {{SERVER_NAME}},host {{MAPNAME}}",
+    "startup": "java -Xms128M -Xmx{{SERVER_MEMORY}}M -jar server-release.jar config port {{SERVER_PORT}},config name {{SERVER_NAME}},host {{MAPNAME}} && {{OPTIONAL_COMMANDS}}",
     "config": {
         "files": "{}",
         "startup": "{\r\n    \"done\": \"Server loaded. \"\r\n}",
@@ -59,6 +59,17 @@
             "user_editable": true,
             "rules": "required|string",
             "field_type": "text"
+        },
+        {
+            "name": "Optional Commands",
+            "description": "Commands to run after the server starts. Use a comma to separate multiple commands.\r\n\r\n(Default: none)",
+            "env_variable": "OPTIONAL_COMMANDS",
+            "default_value": "",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": "nullable|string",
+            "field_type": "text"
         }
+        
     ]
 }
