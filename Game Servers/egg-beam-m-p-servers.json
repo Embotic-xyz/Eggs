@@ -4,13 +4,13 @@
         "version": "PTDL_v2",
         "update_url": null
     },
-    "exported_at": "2024-06-27T18:57:26+01:00",
+    "exported_at": "2024-08-05T16:53:49+01:00",
     "name": "BeamMP Servers",
     "author": "noah@noahserver.online",
     "description": "This is the server for the multiplayer mod BeamMP for the game BeamNG.drive. The server is the point through which all clients communicate. You can write lua mods for the server, detailed instructions on the BeamMP Wiki.",
     "features": null,
     "docker_images": {
-        "Debian": "ghcr.io\/parkervcp\/yolks:debian"
+        "Debian": "ghcr.io\/embotic-xyz\/egg-ghcr:debian"
     },
     "file_denylist": [],
     "startup": ".\/BeamMP-Server",
@@ -32,7 +32,7 @@
             "name": "Server Name",
             "description": "The name of your server. This is what appears on the server list.",
             "env_variable": "NAME",
-            "default_value": "BeamMP - Hosted on discord.gg/embotic",
+            "default_value": "BeamMP Server",
             "user_viewable": true,
             "user_editable": true,
             "rules": "required|string|max:128",
@@ -42,7 +42,7 @@
             "name": "Server Description",
             "description": "Sets the server description",
             "env_variable": "DESCRIPTION",
-            "default_value": "This BeamMP server was hosted on discord.gg/embotic",
+            "default_value": "BeamMP Default Description",
             "user_viewable": true,
             "user_editable": true,
             "rules": "required|string|max:128",
@@ -62,7 +62,7 @@
             "name": "Authentication Key",
             "description": "The authentication key for your server. A key can be obtained from the BeamMP keymaster at https:\/\/keymaster.beammp.com",
             "env_variable": "AUTHKEY",
-            "default_value": "CHANGE_ME",
+            "default_value": "CHANGEME",
             "user_viewable": true,
             "user_editable": true,
             "rules": "required|string|max:64",
